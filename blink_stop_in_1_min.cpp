@@ -26,8 +26,4 @@ int main()
         ThisThread::sleep_for(BLINKING_RATE);
     }
 
-    // Optional: stay idle forever after stopping
-    while (true) {
-        // Do nothing
-    }
 }
